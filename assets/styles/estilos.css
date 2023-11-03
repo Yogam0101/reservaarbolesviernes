@@ -39,3 +39,23 @@
     opacity: 0.5;
     z-index: index -1;
 }
+.columnaDashboard{
+    height: 100vh;
+}
+.opcion:hover{
+    opacity: 0.5;
+    
+}
+.body {
+    height: 100vh;
+    display:flex
+}
+.img2 {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s; /* Transición suave de 0.3 segundos al cambiar el tamaño */
+}
+
+.img2:hover .img2 {
+    transform: scale(1.1); /* Escala al 110% del tamaño original */
+}
